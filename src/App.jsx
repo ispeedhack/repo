@@ -27,11 +27,11 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Main />} />
-        {/*<Route path="/profile" element={<Profile />} />*/}
-        {/*<Route path="/signup" element={<SignUp />} />*/}
-        {/*<Route path="/signin" element={<SignIn />} />*/}
-        {/*<Route path="/reset-password" element={<ResetPassword />} />*/}
-        {/*<Route path="/request-appointment" element={<RequestAnAppointment />} />*/}
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
+        <Route path="/request-appointment" element={<RequestAnAppointment />} />
         <Route path="/services" element={<Services />} />
         <Route path="/services/:id" element={<SpecificService />} />
         <Route path="/doctors" element={<Doctors />} />

@@ -36,17 +36,17 @@ const Hero = () => {
               щастя вашого улюбленця. Незалежно від того, чи потребує ваш улюбленець звичайного огляду або
               спеціалізованого догляду, ви можете довіряти нам, щоб ми стали вашим партнером у
               на шляху до здоров'я вашого улюбленця.
-              {/*<br /> <br /> Book Your Appointment Now!*/}
+              <br /> <br /> Book Your Appointment Now!
             </div>
           </h2>
-          {/* TODO: Implement appointment */}
-          {/*<div className="z-10 mt-8 flex justify-start">*/}
-          {/*  <Link to={userName === null ? "/signup" : "/request-appointment"}>*/}
-          {/*    <button className="hero-button button h-[45px] w-[100px] border border-secGreen bg-bgGreen text-secGreen">*/}
-          {/*      Book now*/}
-          {/*    </button>*/}
-          {/*  </Link>*/}
-          {/*</div>*/}
+           TODO: Implement appointment 
+          <div className="z-10 mt-8 flex justify-start">
+            <Link to={userName === null ? "/signup" : "/request-appointment"}>
+              <button className="hero-button button h-[45px] w-[100px] border border-secGreen bg-bgGreen text-secGreen">
+                Book now
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

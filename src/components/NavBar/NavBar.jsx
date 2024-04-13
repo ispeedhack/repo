@@ -60,49 +60,49 @@ const NavBar = ({ bg }) => {
           </Link>
         </div>
         <div className="flex gap-8">
-          {/* TODO: Implement sign up */}
-          {/*<div className="profile z-10 flex h-10 w-10 items-center justify-center border border-secGreen text-secGreen lg:h-12 lg:w-12">*/}
-          {/*  <Link*/}
-          {/*    to={role != null ? "/profile" : "/signup"}*/}
-          {/*    className="flex h-full w-full items-center justify-center bg-bgGreen"*/}
-          {/*  >*/}
-          {/*    <button className="text-sm lg:text-lg">*/}
-          {/*      {role != null ? (*/}
-          {/*        <svg*/}
-          {/*          xmlns="http://www.w3.org/2000/svg"*/}
-          {/*          fill="currentColor"*/}
-          {/*          className="h-full w-full bg-bgGreen"*/}
-          {/*          viewBox="0 0 16 16"*/}
-          {/*        >*/}
-          {/*          {" "}*/}
-          {/*          <path*/}
-          {/*            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"*/}
-          {/*            fill="#74bb8f"*/}
-          {/*          ></path>{" "}*/}
-          {/*        </svg>*/}
-          {/*      ) : (*/}
-          {/*        <svg*/}
-          {/*          xmlns="http://www.w3.org/2000/svg"*/}
-          {/*          fill="currentColor"*/}
-          {/*          className="h-[78%] w-[78%] bg-bgGreen"*/}
-          {/*          viewBox="0 0 16 16"*/}
-          {/*        >*/}
-          {/*          {" "}*/}
-          {/*          <path*/}
-          {/*            fillRule="evenodd"*/}
-          {/*            d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"*/}
-          {/*            fill="#74bb8f"*/}
-          {/*          ></path>{" "}*/}
-          {/*          <path*/}
-          {/*            fillRule="evenodd"*/}
-          {/*            d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"*/}
-          {/*            fill="#74bb8f"*/}
-          {/*          ></path>{" "}*/}
-          {/*        </svg>*/}
-          {/*      )}*/}
-          {/*    </button>*/}
-          {/*  </Link>*/}
-          {/*</div>*/}
+           TODO: Implement sign up 
+          <div className="profile z-10 flex h-10 w-10 items-center justify-center border border-secGreen text-secGreen lg:h-12 lg:w-12">
+            <Link
+              to={role != null ? "/profile" : "/signup"}
+              className="flex h-full w-full items-center justify-center bg-bgGreen"
+            >
+              <button className="text-sm lg:text-lg">
+                {role != null ? (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    className="h-full w-full bg-bgGreen"
+                    viewBox="0 0 16 16"
+                  >
+                    {" "}
+                    <path
+                      d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                      fill="#74bb8f"
+                    ></path>{" "}
+                  </svg>
+                ) : (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    className="h-[78%] w-[78%] bg-bgGreen"
+                    viewBox="0 0 16 16"
+                  >
+                    {" "}
+                    <path
+                      fillRule="evenodd"
+                      d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"
+                      fill="#74bb8f"
+                    ></path>{" "}
+                    <path
+                      fillRule="evenodd"
+                      d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
+                      fill="#74bb8f"
+                    ></path>{" "}
+                  </svg>
+                )}
+              </button>
+            </Link>
+          </div>
           <div
             className="burger-menu z-20 h-10 w-10 hover:cursor-pointer lg:flex lg:h-12 lg:w-[6.5rem]"
             onClick={openMenu}
@@ -193,6 +193,11 @@ const NavBar = ({ bg }) => {
             <ul className="my-14 ml-4 flex scale-y-110 flex-col items-start text-[42px] font-bold leading-[50px] text-secGreen md:my-16 md:ml-7 md:leading-[55px] lg:text-[50px]">
               <li className="duration-150 hover:text-[#84d4a3]">
                 <NavLink to="/">ГОЛОВНА</NavLink>
+              </li>
+              <li className="duration-150 hover:text-[#84d4a3]">
+                <NavLink to="/services" className="service">
+                  Вхід
+                </NavLink>
               </li>
               <li className="duration-150 hover:text-[#84d4a3]">
                 <NavLink to="/services" className="service">

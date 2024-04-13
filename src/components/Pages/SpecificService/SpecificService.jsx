@@ -59,12 +59,12 @@ const SpecificService = () => {
                 </td>
               </tr>
             </table>
-            {/* TODO: Implement an appointment */}
-            {/*<Link to={"/request-appointment"}>*/}
-            {/*  <div className="box-border flex h-20 w-full items-center justify-center rounded-b-md bg-[#adc6af] px-4 py-3 text-xl font-bold text-bgGreen duration-200 hover:rounded-b-sm hover:bg-bgGreen hover:text-[#516153]">*/}
-            {/*    Make an appointment*/}
-            {/*  </div>*/}
-            {/*</Link>*/}
+             TODO: Implement an appointment 
+            <Link to={"/request-appointment"}>
+              <div className="box-border flex h-20 w-full items-center justify-center rounded-b-md bg-[#adc6af] px-4 py-3 text-xl font-bold text-bgGreen duration-200 hover:rounded-b-sm hover:bg-bgGreen hover:text-[#516153]">
+                Make an appointment
+              </div>
+            </Link>
           </div>
         </div>
       </div>
