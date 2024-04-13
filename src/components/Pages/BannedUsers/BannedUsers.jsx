@@ -64,7 +64,7 @@ const BannedUsers = () => {
           </p>
         )}
       </div>
-       {allUsers
+      {/* {allUsers
         .filter((user) => user.banned === true)
         .map((user) => (
           <tr
@@ -90,7 +90,7 @@ const BannedUsers = () => {
               </button>
             </td>
           </tr>
-        ))} 
+        ))} */}
     </div>
   );
 };
